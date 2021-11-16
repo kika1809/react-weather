@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import "./App.css";
+import "./Weather.css";
 
 export default function Weather() {
 
-  return (<p>Hello from Weather</p>);
+  return (<div className="Weather">Hello from Weather</div>);
 }
