@@ -17,19 +17,13 @@ export default function WeatherInfo(props) {
           <li className="text-capitalize">{props.data.description}</li>
         </ul>
         <div className="row mt-3">
-          <div className="col-6">
-            <div className="clearfix">
-            <div className="float-left">
-                <img src={props.data.icon}
-                    alt={props.data.description}
-                className="float-left"
-                />
-             </div>           
-              <div className="float-left">
-                <WeatherTemperature celsius={props.data.temperature} />
-               </div>
+           <div className="col-6">
+            <div className="d-flex align-items-start">
+                <div ><img src={props.data.icon}
+                alt={props.data.description} /></div>
+                <div><WeatherTemperature celsius={props.data.temperature} /></div>
             </div>
-            </div>
+        </div>
           <div className="col-6">
             <ul>
               <li>Humidity: {props.data.humidity}%</li>
