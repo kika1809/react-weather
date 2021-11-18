@@ -12,7 +12,7 @@ export default function App() {
       <Weather defaultCity="Split"/>
       <footer>
         <p>This project was coded by <a href="https://app.netlify.com/sites/pedantic-golick-389ca6" target="_blank">
-        Kristina Kocur</a> and it is open-sourced on <a href="https://github.com/kika1809/react-weather" target="">GitHub</a>.</p>
+        Kristina Kocur</a> and it is open-sourced on <a href="https://github.com/kika1809/react-weather" target="_blank">GitHub</a>, hosted on <a href="https://github.com/kika1809/react-weather" target="_blank">Netlify</a>.</p>
       </footer>
       </div>
     </div>
