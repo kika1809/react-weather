@@ -19,15 +19,15 @@ export default function WeatherInfo(props) {
         <div className="row mt-3">
           <div className="col-6">
             <div className="clearfix">
-            <img src={props.data.icon}
-              alt={props.data.description}
-              className="float-left"
-              />
-                        
+            <div className="float-left">
+                <img src={props.data.icon}
+                    alt={props.data.description}
+                className="float-left"
+                />
+             </div>           
               <div className="float-left">
                 <WeatherTemperature celsius={props.data.temperature} />
-              
-                </div>
+               </div>
             </div>
             </div>
           <div className="col-6">
