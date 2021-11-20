@@ -1,8 +1,6 @@
 .Weather {
   border: 1px solid #dadde1;
   padding: 16px;
-  margin: 30px auto;
-  max-width: 600px;
   border-radius: 4px;
 }
 .Weather a {
@@ -20,22 +18,15 @@
   padding: 0;
 }
 .Weather li {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
 }
-.Weather img {
-  height: 64px;
-  width: 64px;
-  margin: 10px auto;
-  display: inline-block;
-}
-
 .Weather .temperature {
   color: rgb(33, 33, 33);
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 55px;
+  line-height: 55px;
   font-weight: 400;
   margin-left: 5px;
 }
